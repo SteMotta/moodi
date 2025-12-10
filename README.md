@@ -5,7 +5,7 @@ Il firmware personalizzato dell’ESP32 analizza le **espressioni facciali** att
 In base all’emozione rilevata, il dispositivo cambia il **colore visualizzato sul display** (ad esempio: rosso, verde, blu…).
 
 > ⚠️ **Nota importante:**  
-> Il codice è completamente **custom** e non è utilizzabile senza un **ESP32 configurato con il firmware specifico** sviluppato per questo progetto universitario.
+> Il codice è completamente **custom** e non è utilizzabile senza un **ESP32 configurato con il codice specifico** sviluppato per questo progetto universitario.
 
 ---
 
