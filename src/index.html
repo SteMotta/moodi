@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/Logo.svg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- UI per la selezione dei dispositivi -->
+    <div id="app-controls">
+        <label for="port-select">Porta Seriale:</label>
+        <select id="port-select">
+            <option>In attesa...</option>
+        </select>
+
+        <label for="camera-select">Telecamera:</label>
+        <select id="camera-select">
+            <option>In attesa...</option>
+        </select>
+
+        <button id="refresh-button">⟳ Aggiorna Dispositivi</button>
+        <button id="start-stop-button" disabled>Avvia Rilevamento</button>
+        <p id="status-message" style="color: #e74c3c;">Disconnesso</p>
+    </div>
+
+    <!-- Librerie locali -->
+    <script src="./libs/p5.min.js"></script>
+    <script src="./libs/clmtrackr.min.js"></script>
+    <script src="./libs/models/model_pca_20_svm.js"></script>
+    <script src="./libs/emotion_classifier.js"></script>
+    <script src="./libs/emotionmodel.js"></script>
+
+    <script src="sketch.js"></script>
+
+    <div id="copyright">©Copyright 2025 StefanoMotta</div>
+</body>
+</html>
